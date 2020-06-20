@@ -2,19 +2,6 @@
     position: relative;
     z-index: 100;
 }
-//hamList
-.hamList{
-    max-height: 0;
-    overflow: hidden;
-    background: #fff;
-    z-index: 100;
-}
-.hamList.active{
-    padding-top: 16px;
-    max-height: 100vh;
-    top: 0;
-    left: 0;
-}
 // subscribe
 .subscribe{
     background-image: url(../images/subscribe.jpg);

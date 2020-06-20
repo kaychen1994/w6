@@ -11,7 +11,22 @@
         display: none !important;
     }
 }
-
+//hamList
+.hamList{
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+.hamList.active{
+    padding-top: 16px;
+    max-height: 100vh;
+}
 // index banner
 .banner {
     background-image: url(../images/index-1.jpg);
