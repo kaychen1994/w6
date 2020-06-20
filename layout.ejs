@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+</head>
+
+<body>
+  <%- contents %>
+
+  <!-- subscribe -->
+  <div class="subscribe bg-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-5">
+          <h2 class="text-light font-weight-bold py-4 pt-lg-8 mb-lg-6">Subscribe for news</br> and special offers!</h2>
+          <div class="input-group mb-4 mb-lg-8">
+            <input type="text" class="form-control bg-transparent subscribeInput" placeholder="Your email address"
+              aria-label="Your email address" aria-describedby="subscribeEmail">
+            <div class="input-group-append">
+              <button class="btn btn-primary subscribeBtn" type="button" id="subscribeEmail">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="footer bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 d-lg-flex justify-content-lg-between align-items-lg-center">
+          <h2 class="raleway fz-24 pt-4 pb-6">
+            <a href="index.html" class="text-light">Craftsman</a>
+          </h2>
+          <ul class="mb-6 d-lg-flex">
+            <li>
+              <a href="#" class="fz-14 text-success">Purchase Policy</a>
+            </li>
+            <li>
+              <a href="#" class="fz-14 text-success ml-lg-6">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" class="fz-14 text-success ml-lg-6">Terms & Conditions</a>
+            </li>
+          </ul>
+          <p class="fz-14 text-success">© 2020. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1.5, // perview 秀出來圖的數量
+      spaceBetween: 16,  // slide 間距
+      grabCursor: true, // 小手
+      breakpoints: {
+        // 768: {
+        //   slidesPerView: 4,
+        //   spaceBetween: 40,
+        // },
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      }
+    });
+  </script>
+</body>
+
+</html>

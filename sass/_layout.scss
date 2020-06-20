@@ -1,0 +1,54 @@
+.header{
+    position: relative;
+    z-index: 100;
+}
+//hamList
+.hamList{
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    z-index: 100;
+}
+.hamList.active{
+    padding-top: 16px;
+    max-height: 100vh;
+    top: 0;
+    left: 0;
+}
+// subscribe
+.subscribe{
+    background-image: url(../images/subscribe.jpg);
+    h2{
+        font-size: 2rem;
+    }
+    @include media-breakpoint-up(lg) {
+        h2{
+            font-size: 3rem;
+        }
+    }
+}
+.subscribeInput{
+    padding: 19px 0 18px 16px;
+    height: 100%;
+    &::placeholder{
+        color: #FFFFFF99;
+    }
+}
+.subscribeBtn{
+    padding: 19px 24px 18px 24px;
+}
+
+.footer{
+    @include media-breakpoint-up(lg) {
+        .footer{
+            position: relative;
+            margin-bottom: 38px;
+            padding-top: 39px;
+        }
+        p{
+            position: absolute;
+            top: 28px;
+            left: 150px;
+        }
+    }
+}

@@ -1,0 +1,99 @@
+// menu
+.desktopMenu{
+    display: none !important;
+    @include media-breakpoint-up(lg) {
+        display: flex !important;
+    }
+}
+.mobileHeader{
+    margin-bottom: 143px;
+    @include media-breakpoint-up(lg) {
+        display: none !important;
+    }
+}
+
+// index banner
+.banner {
+    background-image: url(../images/index-1.jpg);
+    z-index: -1;
+    margin-top: -77px;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    // margin-top: -60px;
+    h2 {
+        font-size: 48px;
+        padding-top: 188px;
+    }
+    p {
+        margin-bottom: 108px;
+    }
+}
+.bannerSlogan{
+    @include media-breakpoint-up(lg) {
+        padding-top: 183px;
+        margin-left: 85px;
+        height: 800px;
+    }
+    h2{
+        @include media-breakpoint-up(lg) {
+            color: black !important;
+            font-size: 48px;
+            text-align: left !important;
+        }
+    }
+    p{
+        margin-bottom: 108px;
+        @include media-breakpoint-up(lg) {
+            color: $info !important;
+            font-size: 24px;
+            text-align: left !important;
+        }
+    }
+}
+.shopBtn {
+    padding-top: 19px;
+    padding-bottom: 18px;
+    @include media-breakpoint-up(lg) {
+        width: 25%;
+    }
+}
+
+//introduction
+
+.introduction{
+    margin-top: 95px;
+    @include media-breakpoint-up(lg) {
+        margin-top: 72px;
+        h4{
+            width: 350px;
+        }
+        p{
+            width: 350px;
+        }
+        a{
+            width: 350px;
+        }
+    }
+}
+// director
+.director {
+    height: 400px;
+    background-image: url(../images/index-5.jpg);
+}
+// slider
+.craftContent {
+    @include media-breakpoint-up(lg) {
+        margin-left: 70px;
+    }
+}
+.craftSlider {
+    img {
+        height: 240px;
+    }
+    @include media-breakpoint-up(lg) {
+        img {
+            height: 350px;
+        }
+    }
+}

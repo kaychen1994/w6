@@ -1,0 +1,22 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+body {
+    //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    height: 100vh;
+}
+a{
+    display: block !important;
+    text-decoration: none !important; 
+    color: black;
+}
+ul{
+    list-style: none !important;
+    padding-inline-start: 0px !important;
+}
