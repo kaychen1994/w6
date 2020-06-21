@@ -36,4 +36,17 @@
     text-decoration: line-through;
 }
 
-
+// hover-primary index
+.hoverPrimary-i{
+    color: $light;
+    &:hover{
+        color: $primary;
+    }
+}
+// hover-primary product
+.hoverPrimary-p{
+    color: $secondary;
+    &:hover{
+        color: $primary;
+    }
+}

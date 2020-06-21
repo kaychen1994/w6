@@ -51,6 +51,16 @@ ul {
 .lineThrough {
   text-decoration: line-through; }
 
+.hoverPrimary-i {
+  color: #f8f9fa; }
+  .hoverPrimary-i:hover {
+    color: #0E8A00; }
+
+.hoverPrimary-p {
+  color: #121212; }
+  .hoverPrimary-p:hover {
+    color: #0E8A00; }
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
